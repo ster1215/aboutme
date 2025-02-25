@@ -12,25 +12,38 @@
 
 		h2 {color:#33ff33; font-size:40px;}
 
-</style>
+		</style>
+		<script>
+			function change1() {
+	  			document.getElementById("pic").src = "mountain.jpg";
+	  			document.getElementById("h2text").innerText = "靜宜資管";
+			}
+
+			function change2() {
+	  			document.getElementById("pic").src = "cliff.jpg";
+	  			document.getElementById("h2text").innerText = "資管4B";
+			}
+		</script>
+	
 	</head>
 	<body>
 		<table width="70%">
 			<tr>
 				<td>
-					<img src="cliff.jpg" width="100%"></img>
+					<img src="cliff.jpg" width="100%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
 				</td>
 				<td>
 					<h1>林冠廷</h1>
+					<h2 id="h2text"></h2>
 				</td>
 			</tr>
 		</table>
 		<table width="70%" border="1">
 			<tr>
 				<td>
-					<h2>學校網頁：<a href="https://www.pu.edu.tw/">https://www.pu.edu.tw/</a><br></h2>
-					<h3>Tel: 0900268522</h3><br>
-					<h3>E-Mail: cs06431@gmail.com</h3><br>
+					學校網頁：<a href="https://www.pu.edu.tw/">https://www.pu.edu.tw/</a><br>
+					Tel: 0900268522</h3><br>
+					E-Mail: cs06431@gmail.com<br>
 				</td>
 				<td>
 					大象席地而坐電影配樂<br>

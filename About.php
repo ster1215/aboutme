@@ -6,11 +6,12 @@
 		<title>簡介</title>
 		<style type="text/css">
 
-		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+		* { font-family:"標楷體"; margin-left:auto; margin-right:auto; }
 
 		h1 {color:blue; font-size:60px;}
 
 		h2 {color:#33ff33; font-size:40px;}
+
 
 		</style>
 		<script>
@@ -30,7 +31,7 @@
 		<table width="70%">
 			<tr>
 				<td>
-					<img src="cliff.jpg" width="100%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
+					<img src="cliff.jpg" width="90%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
 				</td>
 				<td>
 					<h1>林冠廷</h1>
@@ -56,7 +57,16 @@
 					<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
 				</td>
 			</tr>
+			<tr>
+				<td>
+					<iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/b1ee8325-d0dc-4e52-acdd-5d4865c3fa24"></iframe>
+
+				</td>
+				<td>
+					<a href="index.html">回到首頁</a> 
+				</td>	
+			</tr>
 		</table>
-	<?php echo date("Y-m-d") ?>	
+			<?php echo date("Y-m-d") ?>	
 	</body>
 </html>
